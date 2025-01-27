@@ -10,7 +10,7 @@ role = 'Consultant, wireframes, design, development'
 type = 'Single page application'
 designs = 'https://www.figma.com/design/LVUJSwejonV7dOXbzIzDH8Z3/Recruiting?node-id=686-750&t=NcjS6HvhTK3vVY73-1'
 prototype = 'https://www.figma.com/proto/LVUJSwejonV7dOXbzIzDH8Z3/Recruiting?node-id=686-754&p=f&t=6QHJdydESe1UBQyN-1&scaling=min-zoom&content-scaling=fixed&page-id=686%3A750&starting-point-node-id=686%3A754'
-image = '/images/recruiting-solutions-fp.jpg'
+image = '/images/recruiting-solutions-fp.webp'
 desc = 'The Recruiting Solutions Central portal is a modern single-page application developed for the corporate recruiting team. It serves as a centralized hub for up-to-date information and comprehensive documentation on all aspects of recruiting at Charter Communications.'
 +++
 
@@ -55,13 +55,13 @@ The initial kickoff meeting provided an opportunity to collaborate with the corp
 
 More often than not, I will sketch ideas on paper before moving to Figma. The more sketches, the better.
 
-{{< figure src="/images/recruiting-solutions-sketch.jpg" alt="Photo of UI sketches in a sketchbook" >}}
+{{< figure src="/images/recruiting-solutions-sketch.webp" alt="Photo of UI sketches in a sketchbook" >}}
 
 ### Wireframes
 
 I developed several wireframe variations to explore the most effective way to display information. Collaborating closely with the VP and a senior recruiter, we ensured the content was organized in the most intuitive and user-friendly manner.
 
-{{< figure src="/images/recruiting-solutions-wf.jpg" alt="Screenshot of wireframes for a web application" >}}
+{{< figure src="/images/recruiting-solutions-wf.webp" alt="Screenshot of wireframes for a web application" >}}
 
 ### Finding the right CMS
 
@@ -69,7 +69,7 @@ The backend engineer and I worked with our manager to identify a headless CMS th
 
 ### High fidelity mockups
 
-{{< figure src="/images/recruiting-solutions-hifi.jpg" alt="Screenshot of high fidelity mockups for a web application" >}}
+{{< figure src="/images/recruiting-solutions-hifi.webp" alt="Screenshot of high fidelity mockups for a web application" >}}
 
 #### Design refresh
 
