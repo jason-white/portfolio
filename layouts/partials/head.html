@@ -8,7 +8,7 @@
     http-equiv="X-UA-Compatible"
     content="IE=edge"
   />
-  {{ $css := resources.Get "css/main.css" | resources.Minify | fingerprint }}
+  {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link
     type="text/css"
     rel="stylesheet"
