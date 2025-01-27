@@ -6,5 +6,9 @@
   class="feature-img"
   style="view-transition-name: {{ $var }}"
 >
-  <img src="{{ $src }}" />
+  <img
+    src="{{ $src }}"
+    decoding="async"
+    alt="Screenshot of UI for {{ .Title }} case study."
+  />
 </figure>
