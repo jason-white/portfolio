@@ -1,0 +1,36 @@
+.page {
+  max-width: var(--measure);
+  padding-inline: var(--gap);
+  margin-inline: auto;
+}
+
+.wrapper {
+  margin-inline: auto;
+  padding-inline: var(--gap);
+  max-width: var(--measure);
+}
+
+.col-2 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--gap);
+
+  >* {
+    max-width: 32ch;
+  }
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+  gap: var(--gap);
+}
+
+footer {
+  margin-block-start: 5rem;
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
+  background-color: #0d1130;
+  background-color: oklch(0.2 0.06 273.76);
+  color: var(--bgc);
+}

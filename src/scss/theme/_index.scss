@@ -1,0 +1,150 @@
+a {
+  color: var(--accent);
+  align-self: start;
+}
+
+a:focus {
+  outline: 3px dotted var(--accent);
+  outline-offset: 0.125rem;
+}
+
+.title,
+.subtitle {
+  font-weight: 400;
+}
+
+.title {
+  font-size: var(--root);
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: var(--smaller);
+}
+
+figure {
+  width: 100%;
+  margin-inline: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.938em 2.188em rgba(50, 50, 93, .1), 0 0.313em 0.938em rgba(0, 0, 0, .07);
+  overflow: hidden;
+}
+
+.case-studies {
+  container-name: cs;
+  container-type: inline-size;
+}
+
+
+
+.cs-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title title"
+    "image intro";
+  gap: var(--gap);
+  align-items: start;
+
+  h3 {
+    margin-block: 0;
+    grid-area: title;
+  }
+
+  figure {
+    grid-area: image;
+  }
+
+  .cs-card__intro {
+    grid-area: intro;
+    font-size: var(--smaller);
+  }
+}
+
+@media (max-width: 700px) {
+  .cs-card {
+    grid-template-areas:
+      "title title"
+      "image image"
+      "intro intro";
+  }
+}
+
+.meta-card {
+  // align-self: start;
+  border-radius: 0.25rem;
+  color: #183c5c;
+  color: oklch(0.35 0.07 248.14);
+  background-color: #ffcb004a;
+  background-color: oklch(0.87 0.21 90.68 / 0.29);
+  padding: calc(var(--gap) * 2);
+  font-size: var(--smaller);
+}
+
+header {
+  padding-block-start: 5rem;
+  padding-block-end: 1rem;
+
+  h1 {
+    margin-block-start: 0;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: var(--gap);
+  }
+
+  li {
+    padding-block: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--smaller);
+    font-weight: 500;
+    color: var(--accent);
+
+    &::after {
+      content: "\2192";
+      color: #666
+    }
+
+    &.nav--active {
+      color: #666;
+    }
+  }
+}
+
+.titled-list {
+  font-size: var(--smaller);
+}
+
+.content-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: var(--smallest);
+  gap: var(--gap);
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--bgc);
+  }
+
+  a {
+    color: var(--bgc);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:visited {
+      color: var(--bgc);
+    }
+
+  }
+}

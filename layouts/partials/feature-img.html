@@ -1,0 +1,7 @@
+{{- $src := .Page.Params.image -}}
+{{- $var := .Title | urlize -}}
+
+
+<figure style="view-transition-name: {{ $var }}">
+  <img src="{{ $src }}" />
+</figure>

@@ -1,0 +1,15 @@
+:is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: 2rem;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+p,
+li {
+  text-wrap: pretty;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
+}

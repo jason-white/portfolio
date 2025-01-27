@@ -1,0 +1,18 @@
+@mixin text {
+  --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 1.5em);
+  --line-height: 1.5;
+  --smaller: 0.8em;
+  --smallest: 0.5em;
+  --line: calc(1rem * var(--line-height));
+  --measure: 60ch;
+}
+
+@mixin space {
+  --gap: 1rem;
+  --half-gap: calc(var(--gap) / 2);
+  --shim: calc(var(--gap) / 4);
+  --half-shim: calc(var(--shim) / 2);
+  --spacer: clamp(var(--gap) * 1.5,
+      var(--gap) + 4vw,
+      min(var(--gap) * 6, 20vmin));
+}

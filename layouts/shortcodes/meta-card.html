@@ -1,0 +1,42 @@
+<div class="meta-card">
+  <ul class="list-reset stack stack--small">
+    <li>
+      <strong>Tools used:</strong>
+      {{ .Page.Params.tools }}
+    </li>
+    <li>
+      <strong>Role:</strong>
+      {{ .Page.Params.role }}
+    </li>
+    <li>
+      <strong>Type:</strong>
+      {{ .Page.Params.type }}
+    </li>
+    <li>
+      <strong>Employer:</strong>
+      {{ .Page.Params.employer }}
+    </li>
+    {{ if .Page.Params.designs }}
+      <li>
+        <strong>Design file:</strong>
+        <a
+          target="_blank"
+          href="{{ .Page.Params.designs }}"
+        >
+          Launch Figma
+        </a>
+      </li>
+    {{ end }}
+    {{ if .Page.Params.prototype }}
+      <li>
+        <strong>Figma prototype:</strong>
+        <a
+          target="_blank"
+          href="{{ .Page.Params.prototype }}"
+        >
+          Launch prototype
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div>

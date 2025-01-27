@@ -1,0 +1,32 @@
+baseURL = 'https://portfolio.jasonwhite.us'
+languageCode = 'en-us'
+title = 'Portfolio'
+
+[params]
+  author = "Jason White"
+  description = "Portfolio of Jason White"
+
+[permalinks]
+	casestudies = "/casestudies/:slug/"
+
+[menus]
+  [[menus.main]]
+    name = 'Case Studies'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Resume'
+    pageRef = '/resume'
+    weight = 20
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.renderer]
+        unsafe = true
+
+[Params.Images]
+  maxSize = 1480
+  setSizes = [480, 800, 1200]
+  sizes = "sizes=(max-width: 480px) 90vw, (max-width: 960px) 80vw, 1480px"

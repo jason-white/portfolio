@@ -1,0 +1,21 @@
+<header class="stack stack--small">
+  <h1 class="title">Jason White</h1>
+  <nav>
+    <ul class="list-reset">
+      {{ range .Site.Menus.main }}
+        <li>
+      {{ if $.IsMenuCurrent .Menu . }}
+              <a
+                class="nav--active"
+                aria-current="page"
+                href="{{ .URL }}"
+              >
+                {{ .Name }}
+              </a>
+            {{ else }}
+        <a href="{{ .URL }}">{{ .Name }} </a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
+</header>

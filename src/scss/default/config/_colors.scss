@@ -1,0 +1,10 @@
+@mixin light {
+  --bgc: #f4f4f4;
+  --fgc: #111;
+  --accent: #1d67f6;
+  --accent: oklch(0.56 0.23 261.88);
+}
+
+@mixin props {
+  @include light;
+}

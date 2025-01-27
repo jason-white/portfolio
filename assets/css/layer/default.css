@@ -1,0 +1,58 @@
+@layer reset {
+  html {
+    --bgc: #f4f4f4;
+    --fgc: #111;
+    --accent: #1d67f6;
+    --accent: oklch(0.56 0.23 261.88);
+    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 1.5em);
+    --line-height: 1.5;
+    --smaller: 0.8em;
+    --smallest: 0.5em;
+    --line: calc(1rem * var(--line-height));
+    --measure: 60ch;
+    --gap: 1rem;
+    --half-gap: calc(var(--gap) / 2);
+    --shim: calc(var(--gap) / 4);
+    --half-shim: calc(var(--shim) / 2);
+    --spacer: clamp(var(--gap) * 1.5,
+        var(--gap) + 4vw,
+        min(var(--gap) * 6, 20vmin));
+    background-color: var(--bgc);
+    color: var(--fgc);
+    font-family: var(--body);
+    font-size: var(--root);
+    line-height: var(--line-height, 1.4);
+  }
+  body {
+    height: 100vh;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  @view-transition {
+    navigation: none;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+      navigation: auto;
+    }
+  }
+  ::view-transition-old(var(--name)) {
+    animation: fade 5s linear forwards;
+  }
+  /* New stuff coming in */
+  ::view-transition-new(var(--name)) {
+    animation: fade 5s linear reverse;
+  }
+  @keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
+
+/*# sourceMappingURL=default.css.map */

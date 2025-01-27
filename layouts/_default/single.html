@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <article class="stack">
+    <h1>
+      {{ .Title }}
+    </h1>
+    {{ partial "feature-img" . }}
+    {{ .Content }}
+  </article>
+{{ end }}

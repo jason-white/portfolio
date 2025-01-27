@@ -1,0 +1,61 @@
+@use 'colors';
+@use 'fonts';
+@use 'sizes';
+
+*,
+*::before,
+*::after {
+  // box-shadow: 0 0 3px 0 rgba(255, 0, 255, 0.3);
+}
+
+html {
+  @include colors.props;
+  @include fonts.fonts;
+  @include sizes.text;
+  @include sizes.space;
+
+  background-color: var(--bgc);
+  color: var(--fgc);
+  font-family: var(--body);
+  font-size: var(--root);
+  line-height: var(--line-height, 1.4);
+}
+
+body {
+  height: 100vh;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+
+
+@view-transition {
+  navigation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+::view-transition-old(var(--name)) {
+  animation: fade 5s linear forwards;
+}
+
+/* New stuff coming in */
+::view-transition-new(var(--name)) {
+  animation: fade 5s linear reverse;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

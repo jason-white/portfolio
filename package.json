@@ -1,0 +1,21 @@
+{
+  "name": "jwfolio",
+  "version": "1.0.0",
+  "description": "Personal work portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hugo": "hugo server",
+    "hugo:drafts": "hugo server -D",
+    "sass": "sass src/scss:assets/css",
+    "watch:sass": "sass --watch src/scss:assets/css",
+    "serve": "npm-run-all --parallel hugo:drafts watch:sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.4.2",
+    "prettier-plugin-go-template": "^0.0.15"
+  }
+}
