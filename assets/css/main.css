@@ -83,6 +83,14 @@
   }
 }
 @layer reset {
+  @view-transition {
+    navigation: none;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+      navigation: auto;
+    }
+  }
   html {
     --bgc: #f4f4f4;
     --fgc: #111;
@@ -114,28 +122,9 @@
   p {
     text-wrap: pretty;
   }
-  @view-transition {
-    navigation: none;
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    @view-transition {
-      navigation: auto;
-    }
-  }
-  ::view-transition-old(var(--name)) {
-    animation: fade 5s linear forwards;
-  }
-  /* New stuff coming in */
-  ::view-transition-new(var(--name)) {
-    animation: fade 5s linear reverse;
-  }
-  @keyframes fade {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
+  .cs-card figure,
+  .feature-img {
+    view-transition-name: var(--name);
   }
 }
 @layer helpers {

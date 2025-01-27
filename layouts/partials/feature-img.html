@@ -2,6 +2,9 @@
 {{- $var := .Title | urlize -}}
 
 
-<figure style="view-transition-name: {{ $var }}">
+<figure
+  class="feature-img"
+  style="view-transition-name: {{ $var }}"
+>
   <img src="{{ $src }}" />
 </figure>
