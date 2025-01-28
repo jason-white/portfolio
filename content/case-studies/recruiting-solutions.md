@@ -55,13 +55,13 @@ The initial kickoff meeting provided an opportunity to collaborate with the corp
 
 More often than not, I will sketch ideas on paper before moving to Figma. The more sketches, the better.
 
-{{< figure src="/images/recruiting-solutions-sketch.webp" alt="Photo of UI sketches in a sketchbook" >}}
+{{< figure src="/images/recruiting-solutions-sketch.webp" alt="Photo of UI sketches in a sketchbook" width="831" height="554" >}}
 
 ### Wireframes
 
 I developed several wireframe variations to explore the most effective way to display information. Collaborating closely with the VP and a senior recruiter, we ensured the content was organized in the most intuitive and user-friendly manner.
 
-{{< figure src="/images/recruiting-solutions-wf.webp" alt="Screenshot of wireframes for a web application" >}}
+{{< figure src="/images/recruiting-solutions-wf.webp" alt="Screenshot of wireframes for a web application" width="831" height="554" >}}
 
 ### Finding the right CMS
 
@@ -69,7 +69,7 @@ The backend engineer and I worked with our manager to identify a headless CMS th
 
 ### High fidelity mockups
 
-{{< figure src="/images/recruiting-solutions-hifi.webp" alt="Screenshot of high fidelity mockups for a web application" >}}
+{{< figure src="/images/recruiting-solutions-hifi.webp" alt="Screenshot of high fidelity mockups for a web application" width="831" height="554" >}}
 
 #### Design refresh
 
