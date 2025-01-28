@@ -16,6 +16,10 @@ desc = 'The IT Academy portal is a sleek single-page application designed for Ch
 
 {{< meta-card >}}
 
+## Problem
+
+The IT Academy team struggled with scattered and inconsistent information storage, making it challenging for employees to access up-to-date documentation and training materials. Additionally, the internal IT teams relied heavily on jargon specific to Charter Communications, which further emphasized the need for a consolidated resource. This lack of a centralized system resulted in slower onboarding and training processes, along with an increased dependency on senior staff for clarification.
+
 ## Goal
 
 The IT Academy team aimed to create a centralized platform to store internal IT jargon, definitions, and training documents, ensuring information was easily accessible for learning and development. Their goal included providing an intuitive interface that allowed users to quickly and efficiently find information while enabling team members to seamlessly add, edit, or remove terms as needed.
