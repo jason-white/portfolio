@@ -1,3 +1,9 @@
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 [class^='stack']>* {
   margin-block: 0;
 }
@@ -18,10 +24,4 @@
 
 .stack--large>*+* {
   margin-block-start: calc(var(--gap) * 3);
-}
-
-.list-reset {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }

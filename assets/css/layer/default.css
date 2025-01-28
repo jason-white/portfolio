@@ -1,4 +1,4 @@
-@layer reset {
+@layer default {
   @view-transition {
     navigation: none;
   }
@@ -12,8 +12,8 @@
     --fgc: #111;
     --accent: #033397;
     --accent: oklch(0.37 0.17 262.37);
-    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 1.5em);
+    --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --root: clamp(max(1em, 18px), 0.5724rem + 1.7544vw, 1.5rem);
     --line-height: 1.5;
     --smaller: 0.8em;
     --smallest: 0.5em;

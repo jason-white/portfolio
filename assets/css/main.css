@@ -84,7 +84,7 @@
     scroll-margin-block: 5ex;
   }
 }
-@layer reset {
+@layer default {
   @view-transition {
     navigation: none;
   }
@@ -98,8 +98,8 @@
     --fgc: #111;
     --accent: #033397;
     --accent: oklch(0.37 0.17 262.37);
-    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 1.5em);
+    --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --root: clamp(max(1em, 18px), 0.5724rem + 1.7544vw, 1.5rem);
     --line-height: 1.5;
     --smaller: 0.8em;
     --smallest: 0.5em;
@@ -128,6 +128,11 @@
   }
 }
 @layer helpers {
+  .list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
   [class^=stack] > * {
     margin-block: 0;
   }
@@ -144,11 +149,6 @@
   }
   .stack--large > * + * {
     margin-block-start: calc(var(--gap) * 3);
-  }
-  .list-reset {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
   }
 }
 @layer type {
@@ -207,10 +207,6 @@
   a:focus {
     outline: 3px dotted var(--accent);
     outline-offset: 0.125rem;
-  }
-  .title,
-  .subtitle {
-    font-weight: 400;
   }
   .title {
     font-size: var(--root);
@@ -299,8 +295,8 @@
   }
   .content-info {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    align-items: start;
     font-size: var(--smallest);
     gap: var(--gap);
   }
@@ -308,6 +304,7 @@
     width: 1.5rem;
     height: 1.5rem;
     fill: var(--bgc);
+    display: block;
   }
   .content-info a {
     color: var(--bgc);
