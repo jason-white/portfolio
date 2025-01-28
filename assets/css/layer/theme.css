@@ -55,10 +55,6 @@
     grid-area: intro;
     font-size: var(--smaller);
   }
-  .cs-card figure,
-  .feature-img {
-    view-transition-name: var(--name);
-  }
   @media (max-width: 700px) {
     .cs-card {
       grid-template-areas: "title title" "image image" "intro intro";
