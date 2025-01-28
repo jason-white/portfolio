@@ -4,6 +4,7 @@
     padding-inline: var(--gap);
     margin-inline: auto;
     margin-block-end: 5rem;
+    height: auto;
   }
   .wrapper {
     margin-inline: auto;
@@ -24,7 +25,6 @@
     gap: var(--gap);
   }
   footer {
-    margin-block-start: auto;
     padding-block-start: 2rem;
     padding-block-end: 4rem;
     background-color: var(--accent);
