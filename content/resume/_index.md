@@ -3,14 +3,6 @@ title = 'Resume'
 layout = 'resume'
 +++
 
-## Introduction
-
-I am a Design Engineer with multiple years of experience building intuitive, scalable front-end solutions for the web. Proficient in semantic HTML, CSS, JavaScript, and accessibility standards, I specialize in designing, prototyping, and building user-centric interfaces that prioritize inclusivity and functionality.
-
-### Experienced using
-
-HTML, CSS, JavaScript, Figma, TypeScript, React, Angular, Vue, Responsive design, UX Design, Data-driven UX, Web Typography, Prototyping, WordPress, Headless CMS, Accessibility, WCAG, ARIA, NodeJS, Design Systems, CSS Preprocessors, Storybook, Chromatic, DataDog, Git, Jest, Amazon Web Services
-
 ## Work Experience
 
 ### Indeed
@@ -50,3 +42,13 @@ May 2016 - March 2018
 - Led the team in adopting best practices for responsive and mobile-first design and development processes, improving overall project efficiency.
 - Developed a custom WordPress theme to streamline the execution of new projects, reducing development time significantly.
 - Built visually engaging and responsive brochure websites using WordPress, VueJS, and SVG animations powered by GreenSock (GSAP).
+
+### Experienced using the following
+
+HTML, CSS, JavaScript, Figma, TypeScript, React, Angular, Vue, Responsive design, UX Design, Data-driven UX, Web Typography, Prototyping, WordPress, Headless CMS, Accessibility, WCAG, ARIA, NodeJS, Design Systems, CSS Preprocessors, Storybook, Chromatic, DataDog, Git, Jest, Amazon Web Services
+
+## Education
+
+**University of North Carolina Greensboro**<br>
+BFA in New Media and Design<br>
+August 2010 - May 2015

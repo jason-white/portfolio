@@ -30,11 +30,6 @@ figure {
   overflow: hidden;
 }
 
-.case-studies {
-  container-name: cs;
-  container-type: inline-size;
-}
-
 .feature-img img {
   aspect-ratio: 3 / 2;
 }
@@ -116,19 +111,20 @@ nav {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
     font-size: var(--smaller);
     font-weight: 500;
-    color: var(--accent);
+    color: #333;
 
-    &::after {
-      content: "\2192";
-      color: #666
-    }
+    // &::after {
+    //   content: "\2192";
+    //   color: #666
+    // }
 
     &.nav--active {
-      color: #666;
+      color: var(--accent);
+      text-decoration: none;
     }
   }
 }
@@ -153,7 +149,6 @@ nav {
   a {
     color: var(--bgc);
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 600;
 
     &:visited {

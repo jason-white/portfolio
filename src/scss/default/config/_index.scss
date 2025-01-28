@@ -17,10 +17,7 @@
   //   view-transition-name: var(--name);
   // }
 
-  .cs-card figure img,
-  .feature-img img {
-    contain: layout;
-  }
+
 }
 
 html {
@@ -38,4 +35,10 @@ html {
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .page {
+    flex: 1;
+  }
 }

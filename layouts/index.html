@@ -1,29 +1,30 @@
 {{ define "main" }}
-  <section class="case-studies stack stack--large">
-    <h2>Case Studies</h2>
-    {{ with .Site.GetPage "section" "case-studies" }}
-      {{ range .Pages }}
-        <article class="cs-card">
-          <h3>
-            {{ .Title }}
-          </h3>
-          <figure style="view-transition-name: {{ .Title | urlize }}">
-            <img
-              decoding="async"
-              src="{{ .Params.image }}"
-              alt="Thumbnail for {{ .Title }} case study."
-              width="400"
-              height="266.67"
-            />
-          </figure>
-          <div class="cs-card__intro stack stack--small">
-            <p>
-              {{ .Params.desc }}
-            </p>
-            <a href="{{ .Permalink }}">View case study</a>
-          </div>
-        </article>
-      {{ end }}
-    {{ end }}
-  </section>
+  <section class="stack stack--lage">{{ .Content }}</section>
+  <!-- <section class="case-studies stack stack--large"> -->
+  <!--   <h2>Case Studies</h2> -->
+  <!--   {{ with .Site.GetPage "section" "case-studies" }} -->
+  <!--     {{ range .Pages }} -->
+  <!--       <article class="cs-card"> -->
+  <!--         <h3> -->
+  <!--           {{ .Title }} -->
+  <!--         </h3> -->
+  <!--         <figure style="view-transition-name: {{ .Title | urlize }}"> -->
+  <!--           <img -->
+  <!--             decoding="async" -->
+  <!--             src="{{ .Params.image }}" -->
+  <!--             alt="Thumbnail for {{ .Title }} case study." -->
+  <!--             width="400" -->
+  <!--             height="266.67" -->
+  <!--           /> -->
+  <!--         </figure> -->
+  <!--         <div class="cs-card__intro stack stack--small"> -->
+  <!--           <p> -->
+  <!--             {{ .Params.desc }} -->
+  <!--           </p> -->
+  <!--           <a href="{{ .Permalink }}">View case study</a> -->
+  <!--         </div> -->
+  <!--       </article> -->
+  <!--     {{ end }} -->
+  <!--   {{ end }} -->
+  <!-- </section> -->
 {{ end }}

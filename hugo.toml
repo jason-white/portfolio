@@ -11,13 +11,17 @@ title = 'Portfolio'
 
 [menus]
   [[menus.main]]
-    name = 'Case Studies'
+    name = 'Home'
     pageRef = '/'
     weight = 10
   [[menus.main]]
+    name = 'Case Studies'
+    pageRef = '/case-studies'
+    weight = 20
+  [[menus.main]]
     name = 'Resume'
     pageRef = '/resume'
-    weight = 20
+    weight = 30
 
 [markup]
   defaultMarkdownHandler = 'goldmark'

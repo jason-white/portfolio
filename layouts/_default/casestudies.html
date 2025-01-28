@@ -1,0 +1,8 @@
+<ul>
+  {{ range eq .Pages "Section" in "case-studies" }}
+    <li>
+      derp
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
