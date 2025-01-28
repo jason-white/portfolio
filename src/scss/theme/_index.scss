@@ -80,6 +80,11 @@ figure {
   }
 }
 
+.cs-card figure img,
+.feature-img img {
+  contain: layout;
+}
+
 .meta-card {
   // align-self: start;
   border-radius: 0.25rem;

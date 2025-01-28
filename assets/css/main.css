@@ -93,10 +93,6 @@
     @view-transition {
       navigation: auto;
     }
-    .cs-card figure,
-    .feature-img {
-      view-transition-name: var(--name);
-    }
     .cs-card figure img,
     .feature-img img {
       contain: layout;
@@ -262,6 +258,10 @@
     .cs-card {
       grid-template-areas: "title title" "image image" "intro intro";
     }
+  }
+  .cs-card figure img,
+  .feature-img img {
+    contain: layout;
   }
   .meta-card {
     border-radius: 0.25rem;

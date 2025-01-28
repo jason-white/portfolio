@@ -60,6 +60,10 @@
       grid-template-areas: "title title" "image image" "intro intro";
     }
   }
+  .cs-card figure img,
+  .feature-img img {
+    contain: layout;
+  }
   .meta-card {
     border-radius: 0.25rem;
     color: #183c5c;
