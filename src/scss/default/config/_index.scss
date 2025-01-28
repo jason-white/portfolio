@@ -29,12 +29,3 @@ html {
 body {
   height: 100vh;
 }
-
-p {
-  text-wrap: pretty;
-}
-
-.cs-card figure,
-.feature-img {
-  view-transition-name: var(--name);
-}

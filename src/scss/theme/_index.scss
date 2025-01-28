@@ -35,6 +35,9 @@ figure {
   container-type: inline-size;
 }
 
+.feature-img img {
+  aspect-ratio: 3 / 2;
+}
 
 
 .cs-card {
@@ -54,12 +57,23 @@ figure {
 
   figure {
     grid-area: image;
+
+    img {
+      aspect-ratio: 3 / 2;
+    }
   }
+
+
 
   .cs-card__intro {
     grid-area: intro;
     font-size: var(--smaller);
   }
+}
+
+.cs-card figure,
+.feature-img {
+  view-transition-name: var(--name);
 }
 
 @media (max-width: 700px) {

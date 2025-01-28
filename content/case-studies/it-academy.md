@@ -65,7 +65,7 @@ The updated design retains much of the original layout but introduces a moderniz
 
 The primary objective for this project's design was to ensure a clean, minimalist user interface. The directive for the homepage was clear: emulate Google's simplicity by placing a prominent, central search component. Interior pages followed a consistent design pattern, featuring a left-aligned sidebar with controls and the main content displayed to the right, creating a cohesive and user-friendly experience.
 
-{{< figure src="/images/it-academy-ui.webp" alt="Screenshot of a dictionary application's UI" >}}
+{{< figure src="/images/it-academy-ui.webp" alt="Screenshot of a dictionary application's UI" width="831" height="722" >}}
 
 #### Sketches and wireframes
 
@@ -82,8 +82,8 @@ The IT Academy team needed functionality to add, edit, and remove dictionary ite
 When an admin accesses the IT Academy portal, they are presented with additional controls on the dictionary page, including options to edit or remove existing definitions via modals. An "Add a new term" button is also available in the sidebar for creating new entries. All changes are written to the database and trigger the application to reload upon saving, ensuring updates are reflected immediately.
 
 {{< grid-2 >}}
-{{< figure src="/images/it-academy-defs-admin.webp" alt="Screenshot of an additional admin control in an app UI" >}}
-{{< figure src="/images/it-academy-admin-modal.webp" alt="Screenshot of a modal UI for editing a dictionary term" >}}
+{{< figure src="/images/it-academy-defs-admin.webp" alt="Screenshot of an additional admin control in an app UI" width="404" height="438">}}
+{{< figure src="/images/it-academy-admin-modal.webp" alt="Screenshot of a modal UI for editing a dictionary term" width="404" height="438" >}}
 {{< /grid-2 >}}
 
 ## User testing

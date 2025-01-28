@@ -30,6 +30,9 @@
     container-name: cs;
     container-type: inline-size;
   }
+  .feature-img img {
+    aspect-ratio: 3/2;
+  }
   .cs-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,9 +48,16 @@
   .cs-card figure {
     grid-area: image;
   }
+  .cs-card figure img {
+    aspect-ratio: 3/2;
+  }
   .cs-card .cs-card__intro {
     grid-area: intro;
     font-size: var(--smaller);
+  }
+  .cs-card figure,
+  .feature-img {
+    view-transition-name: var(--name);
   }
   @media (max-width: 700px) {
     .cs-card {
