@@ -96,5 +96,3 @@ The headless CMS we selected, while the most cost-effective option (free), prove
 ### Testimonials section
 
 One of the nice-to-have features requested by the recruiting team was a testimonials section, or 'storytelling,' as they referred to it. This feature allowed users to submit their own stories. While the concept had potential, it saw little engagement, with no more than two submissions during the rest of my time at Charter.
-
-Thank you for viewing.

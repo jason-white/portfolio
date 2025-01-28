@@ -80,8 +80,7 @@ figure {
   border-radius: 0.25rem;
   color: #183c5c;
   color: oklch(0.35 0.07 248.14);
-  background-color: #ffcb004a;
-  background-color: oklch(0.87 0.21 90.68 / 0.29);
+  background-color: var(--callout);
   padding: calc(var(--gap) * 2);
   font-size: var(--smaller);
 }
@@ -95,7 +94,7 @@ header {
   }
 }
 
-nav {
+.header-nav {
   ul {
     display: flex;
     gap: var(--gap);
@@ -130,7 +129,7 @@ nav {
 
 .content-info {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: start;
   font-size: var(--smallest);
   gap: var(--gap);
@@ -151,5 +150,22 @@ nav {
       color: var(--bgc);
     }
 
+  }
+}
+
+.cs-footer {
+  margin-block-start: var(--spacer);
+  padding: var(--gap);
+  background-color: var(--callout);
+  border-radius: 0.25rem;
+  font-size: var(--smaller);
+  color: #183c5c;
+  color: oklch(0.35 0.07 248.14);
+}
+
+.pagination-nav {
+  a {
+    text-transform: none;
+    font-size: var(--body);
   }
 }

@@ -9,7 +9,7 @@ employer = 'Charter Communications'
 role = 'Consulting, wireframes, design, development, logo design'
 type = 'Single page application'
 designs = 'https://www.figma.com/design/olA5VkrQgGw9ngSDQGa5WN/IT-Academy-Walkthough?node-id=126-2&t=jpEmPh4YnmM2is2A-1'
-prototype = ''
+prototype = 'https://www.figma.com/proto/olA5VkrQgGw9ngSDQGa5WN/IT-Academy-Walkthough?node-id=126-5&t=l75Tmqy0SsU5ari9-1&scaling=min-zoom&content-scaling=fixed&page-id=126%3A2&starting-point-node-id=126%3A5'
 image = '/images/it-academy-fp.webp'
 desc = 'The IT Academy portal is a sleek single-page application designed for Charter Communications IT employees. It provides quick access to definitions of terms specific to internal IT teams and includes a dedicated area for browsing IT training materials via the IT Academy, streamlining both learning and team collaboration.'
 +++
@@ -99,5 +99,3 @@ The IT Academy portal was very well received. Multiple IT teams began to contrib
 ### Lessons learned
 
 Originally, I was asked to implement AWS Lambda functions using Java. However, this approach caused significant delays during cold starts due to Java's compilation overhead, resulting in initial page loads taking up to five seconds. To address this, I was tasked with optimizing the performance. While I managed to reduce the load time by 1-2 seconds through targeted improvements, I identified Java as the primary bottleneck. Proactively, I rewrote the Lambda functions in JavaScript, drastically improving response times. Post-optimization, REST calls became nearly instantaneous, achieving a 5x performance boost.
-
-Thank you for viewing.

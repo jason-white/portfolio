@@ -98,6 +98,8 @@
     --fgc: #111;
     --accent: #033397;
     --accent: oklch(0.37 0.17 262.37);
+    --callout: #ffcb004a;
+    --callout: oklch(0.87 0.21 90.68 / 0.29);
     --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --root: clamp(max(1em, 18px), 0.5724rem + 1.7544vw, 1.5rem);
     --line-height: 1.5;
@@ -260,8 +262,7 @@
     border-radius: 0.25rem;
     color: #183c5c;
     color: oklch(35% 0.07 248.14deg);
-    background-color: rgba(255, 203, 0, 0.2901960784);
-    background-color: oklch(87% 0.21 90.68deg / 0.29);
+    background-color: var(--callout);
     padding: calc(var(--gap) * 2);
     font-size: var(--smaller);
   }
@@ -272,21 +273,21 @@
   header h1 {
     margin-block-start: 0;
   }
-  nav ul {
+  .header-nav ul {
     display: flex;
     gap: var(--gap);
   }
-  nav li {
+  .header-nav li {
     padding-block: 1rem;
   }
-  nav a {
+  .header-nav a {
     text-decoration: underline;
     text-transform: uppercase;
     font-size: var(--smaller);
     font-weight: 500;
     color: #333;
   }
-  nav a.nav--active {
+  .header-nav a.nav--active {
     color: var(--accent);
     text-decoration: none;
   }
@@ -295,7 +296,7 @@
   }
   .content-info {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: start;
     font-size: var(--smallest);
     gap: var(--gap);
@@ -313,6 +314,19 @@
   }
   .content-info a:visited {
     color: var(--bgc);
+  }
+  .cs-footer {
+    margin-block-start: var(--spacer);
+    padding: var(--gap);
+    background-color: var(--callout);
+    border-radius: 0.25rem;
+    font-size: var(--smaller);
+    color: #183c5c;
+    color: oklch(35% 0.07 248.14deg);
+  }
+  .pagination-nav a {
+    text-transform: none;
+    font-size: var(--body);
   }
 }
 

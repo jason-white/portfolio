@@ -1,0 +1,36 @@
+<footer class="stack stack--small cs-footer">
+  <p>
+    Thank you for reading. If you like what you've seen so far, please feel free
+    to
+    <a href="mailto:jasonawhite@gmail.com">reach out!</a>
+  </p>
+  <nav
+    class="pagination-nav"
+    aria-label="Case study pagination"
+  >
+    {{ if .NextInSection }}
+      <span class="pagination__next">
+        Next case study:
+        <a
+          aria-label="Navigate to the next article"
+          rel="next"
+          href="{{ .NextInSection.Permalink }}"
+        >
+          {{ .NextInSection.Title }}
+        </a>
+      </span>
+    {{ end }}
+    {{ if .PrevInSection }}
+      <span class="pagination__prev">
+        Previous case study:
+        <a
+          aria-label="Navigate to the previous article"
+          rel="previous"
+          href="{{ .PrevInSection.Permalink }}"
+        >
+          {{ .PrevInSection.Title }}
+        </a>
+      </span>
+    {{ end }}
+  </nav>
+</footer>

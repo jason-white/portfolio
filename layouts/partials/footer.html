@@ -1,6 +1,7 @@
 <footer>
   <div class="wrapper">
     <div class="content-info">
+      <div class="stack stack--small">
       <svg
         aria-hidden="true"
         class="logo"
@@ -32,6 +33,23 @@
           jasonwhite.us
         </a>
       </span>
+    </div>
+<ul class="list-reset">
+      {{ range .Site.Menus.main }}
+        <li>
+      {{ if $.IsMenuCurrent .Menu . }}
+              <a
+                class="nav--active"
+                aria-current="page"
+                href="{{ .URL }}"
+              >
+                {{ .Name }}
+              </a>
+            {{ else }}
+        <a href="{{ .URL }}">{{ .Name }} </a></li>
+      {{ end }}
+      {{ end }}
+    </ul>
     </div>
   </div>
 </footer>
