@@ -91,7 +91,7 @@ I also gained valuable consulting experience on this project, as I took full own
 
 ### Headless CMS
 
-The headless CMS we selected, while the most cost-effective option (free), proved to be less user-friendly than anticipated. It was challenging to install and maintain using their out of date doc site. It required us to write extensive documentation for the recruting team. The editing process felt more like managing a database than using a typical CMS, making it harder for the team to navigate and update content efficiently.
+The headless CMS we selected, while the most cost-effective option (free), proved to be less user-friendly than anticipated. It was challenging to install and maintain using their out of date doc site. It required us to write extensive documentation for the recruiting team. The editing process felt more like managing a database than using a typical CMS.
 
 ### Testimonials section
 

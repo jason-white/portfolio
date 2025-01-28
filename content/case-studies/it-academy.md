@@ -16,8 +16,6 @@ desc = 'The IT Academy portal is a sleek single-page application designed for Ch
 
 {{< meta-card >}}
 
-## Problem
-
 ## Goal
 
 The IT Academy team aimed to create a centralized platform to store internal IT jargon, definitions, and training documents, ensuring information was easily accessible for learning and development. Their goal included providing an intuitive interface that allowed users to quickly and efficiently find information while enabling team members to seamlessly add, edit, or remove terms as needed.
