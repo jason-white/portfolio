@@ -2,16 +2,12 @@
 {{- $var := .Title | urlize -}}
 
 
-<figure
-  class="feature-img"
+<img
+  class="feature-img radius"
   style="view-transition-name: {{ $var }}"
->
-  <img
-    id="featureImg"
-    src="{{ $src }}"
-    decoding="async"
-    alt="Screenshot of UI for {{ .Title }} case study."
-    width="831"
-    height="554"
-  />
-</figure>
+  id="featureImg"
+  src="{{ $src }}"
+  alt="Screenshot of UI for {{ .Title }} case study."
+  width="831"
+  height="554"
+/>

@@ -25,3 +25,11 @@
 .stack--large>*+* {
   margin-block-start: calc(var(--gap) * 3);
 }
+
+.radius {
+  border-radius: 0.5em;
+}
+
+.radius--small {
+  border-radius: 0.25em;
+}
