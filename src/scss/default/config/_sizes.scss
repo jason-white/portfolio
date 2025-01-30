@@ -1,8 +1,8 @@
 @mixin text {
   --root: clamp(max(1em, 18px), 0.5724rem + 1.7544vw, 1.5rem);
   --line-height: 1.5;
-  --smaller: 0.8em;
-  --smallest: 0.5em;
+  --smaller: 0.8rem;
+  --smallest: 0.5rem;
   --line: calc(1rem * var(--line-height));
   --measure: 60ch;
 }

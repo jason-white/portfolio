@@ -13,13 +13,13 @@
     justify-content: flex-start;
   }
   .stack > * + * {
-    margin-block-start: var(--gap, 1.5rem);
+    margin-block-start: 1.5em;
   }
   .stack--small > * + * {
-    margin-block-start: var(--shim);
+    margin-block-start: 1em;
   }
   .stack--large > * + * {
-    margin-block-start: calc(var(--gap) * 3);
+    margin-block-start: 4.5em;
   }
   .radius {
     border-radius: 0.5em;
