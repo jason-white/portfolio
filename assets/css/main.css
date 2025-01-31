@@ -107,6 +107,7 @@
     --smallest: 0.5rem;
     --line: calc(1rem * var(--line-height));
     --measure: 60ch;
+    --stack-space: 1.5em;
     --gap: 1rem;
     --half-gap: calc(var(--gap) / 2);
     --shim: calc(var(--gap) / 4);
@@ -144,19 +145,23 @@
     justify-content: flex-start;
   }
   .stack > * + * {
-    margin-block-start: 1.5em;
+    margin-block-start: var(--stack-space, 1.5em);
   }
   .stack--small > * + * {
-    margin-block-start: 1em;
+    margin-block-start: 0.5em;
   }
   .stack--large > * + * {
-    margin-block-start: 4.5em;
+    margin-block-start: calc(var(--stack-space) * 3);
+  }
+  figure,
+  figure + * {
+    --stack-space: 3rem;
   }
   .radius {
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
   }
   .radius--small {
-    border-radius: 0.25em;
+    border-radius: 0.25rem;
   }
 }
 @layer type {

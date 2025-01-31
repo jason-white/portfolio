@@ -21,6 +21,7 @@
     --smallest: 0.5rem;
     --line: calc(1rem * var(--line-height));
     --measure: 60ch;
+    --stack-space: 1.5em;
     --gap: 1rem;
     --half-gap: calc(var(--gap) / 2);
     --shim: calc(var(--gap) / 4);

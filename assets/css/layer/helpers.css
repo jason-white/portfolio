@@ -13,19 +13,23 @@
     justify-content: flex-start;
   }
   .stack > * + * {
-    margin-block-start: 1.5em;
+    margin-block-start: var(--stack-space, 1.5em);
   }
   .stack--small > * + * {
-    margin-block-start: 1em;
+    margin-block-start: 0.5em;
   }
   .stack--large > * + * {
-    margin-block-start: 4.5em;
+    margin-block-start: calc(var(--stack-space) * 3);
+  }
+  figure,
+  figure + * {
+    --stack-space: 3rem;
   }
   .radius {
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
   }
   .radius--small {
-    border-radius: 0.25em;
+    border-radius: 0.25rem;
   }
 }
 
