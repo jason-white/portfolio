@@ -26,7 +26,6 @@
   margin-block-start: calc(var(--stack-space) * 3);
 }
 
-figure,
 figure+* {
   --stack-space: 3rem;
 }
