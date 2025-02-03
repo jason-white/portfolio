@@ -53,7 +53,7 @@ The initial kickoff meeting provided an opportunity to collaborate with the corp
 
 ### Sketches
 
-More often than not, I will sketch ideas on paper before moving to Figma. The more sketches, the better.
+More often than not, I will sketch ideas on paper before moving to Figma. The more sketches, the better. Sketching allows me to rapidly iterate over ideas. No idea is a bad idea, the point here is to just get as much as possible out of my head and onto paper.
 
 {{< figure src="/images/recruiting-solutions-sketch.webp" alt="Photo of UI sketches in a sketchbook" width="831" height="554" >}}
 

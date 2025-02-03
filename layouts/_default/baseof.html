@@ -10,5 +10,10 @@
       </main>
     </div>
     {{ partial "footer" . }}
+    {{ $script := resources.Get "js/two-up-min.js" }}
+    <script
+      src="{{ $script.RelPermalink }}"
+      integrity="{{ $script.Data.Integrity }}"
+    ></script>
   </body>
 </html>

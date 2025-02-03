@@ -63,9 +63,12 @@ At the start of the project, much of the initial information was communicated th
 
 The primary objective for this project's design was to ensure a clean, minimalist user interface. The directive for the homepage was clear: emulate Google's simplicity by placing a prominent, central search component. Interior pages followed a consistent design pattern, featuring a left-aligned sidebar with controls and the main content displayed to the right, creating a cohesive and user-friendly experience.
 
-{{< figure src="/images/it-academy-fp.webp" alt="Screenshot of a dictionary application's front page UI" width="831" height="722" >}}
-
 ### Refreshed design
+
+<two-up class="my-two-up">
+    <img alt="Screenshot of a dictionary application's original front page UI" src="/images/it-academy-og-fp.webp">
+    <img alt="Screenshot of a dictionary application's new front page UI" src="/images/it-academy-fp.webp">
+</two-up>
 
 After several years of gaining additional experience in user experience and design, I decided to refresh this application. While I no longer had access to the original Figma file, I used old screenshots as a reference to guide the redesign process.
 
