@@ -22,7 +22,7 @@ March 2022 - May 2024
 March 2020 - May 2022
 
 - Designed, prototyped, and developed custom Single Page Applications (SPAs):
-  - **IT Academy Search Portal**: Streamlined management of 1,600+ IT jargon definitions with capabilities for adding, editing, deleting, and querying entries. Migrated backend services from Java to NodeJS, achieving a 5x performance boost.
+  - **[IT Academy Search Portal](/case-studies/it-academy)**: Streamlined management of 1,600+ IT jargon definitions with capabilities for adding, editing, deleting, and querying entries. Migrated backend services from Java to NodeJS, achieving a 5x performance boost.
   - **Cloud-Managed Checklist Application**: Built a VueJS-based tool adopted by 300+ Spectrum brick-and-mortar stores for streamlined operations.
 - Enhanced design and prototyping efficiency by creating reusable components that adhered to brand guidelines.
 
@@ -32,7 +32,7 @@ March 2018 - May 2020
 - Developed user-friendly portals within Charter Communications' Learning Management System (LMS).
 - Designed, prototyped, and engineered SPAs, including:
   - **Leadership Development SPA**: Enabled leaders to self-serve development resources, eliminating nearly 100% of consultation time.
-  - **Corporate Recruiting Hub**: Built a comprehensive hub for the recruiting team, integrating a headless CMS for seamless content management.
+  - **[Corporate Recruiting Hub](/case-studies/recruiting-solutions)**: Built a comprehensive hub for the recruiting team, integrating a headless CMS for seamless content management.
 
 ### Alter Imaging
 

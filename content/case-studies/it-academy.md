@@ -1,7 +1,7 @@
 +++
 date = '2025-01-22T10:36:57-05:00'
 draft = false
-title = 'IT Academy'
+title = 'IT Academy Portal'
 layout = 'casestudy'
 slug = 'it-academy'
 tools = 'Figma, AngularJS, Java, Amazon Web Services (RDS, API Gateway, Lambda)'
@@ -25,6 +25,8 @@ The IT Academy team struggled with scattered and inconsistent information storag
 The IT Academy team aimed to create a centralized platform to store internal IT jargon, definitions, and training documents, ensuring information was easily accessible for learning and development. Their goal included providing an intuitive interface that allowed users to quickly and efficiently find information while enabling team members to seamlessly add, edit, or remove terms as needed.
 
 ## Impact
+
+The IT Academy portal enabled multiple IT teams to centralize training and onboarding, reducing redundancy and improving knowledge transfer. By keeping all resources in one place, new hires could onboard more efficiently, and existing team members had quick access to up-to-date documentation and learning materials. This streamlined approach led to faster ramp-up times, reduced training overhead, and improved overall team productivity.
 
 The demo of the application was extremely well-received, with other IT teams immediately expressing interest in adding their own terms to the database, further expanding its value across the organization.
 
@@ -57,17 +59,24 @@ At the start of the project, much of the initial information was communicated th
 
 {{< /twocol >}}
 
+### Focusing on simplicity and functionality
+
+The primary objective for this project's design was to ensure a clean, minimalist user interface. The directive for the homepage was clear: emulate Google's simplicity by placing a prominent, central search component. Interior pages followed a consistent design pattern, featuring a left-aligned sidebar with controls and the main content displayed to the right, creating a cohesive and user-friendly experience.
+
+{{< figure src="/images/it-academy-fp.webp" alt="Screenshot of a dictionary application's front page UI" width="831" height="722" >}}
+
 ### Refreshed design
 
 After several years of gaining additional experience in user experience and design, I decided to refresh this application. While I no longer had access to the original Figma file, I used old screenshots as a reference to guide the redesign process.
 
 The updated design retains much of the original layout but introduces a modernized look and feel. The most significant change is on the dictionary page. I reimagined the layout to feature alphabetized sections of words, giving users a bird's-eye view of the dictionary's contents. As users begin filtering, the view seamlessly transitions to a clean, list-based format with definitions, enhancing usability and clarity.
 
-### Focusing on simplicity and functionality
+I added a copy button to each term in the list of definitions, allowing users to quickly copy the content to their clipboard. While this feature wasn’t originally requested, I felt it would be a useful addition for easy access to definitions. I also included a copy button in the definition modal for consistency.
 
-The primary objective for this project's design was to ensure a clean, minimalist user interface. The directive for the homepage was clear: emulate Google's simplicity by placing a prominent, central search component. Interior pages followed a consistent design pattern, featuring a left-aligned sidebar with controls and the main content displayed to the right, creating a cohesive and user-friendly experience.
-
-{{< figure src="/images/it-academy-fp.webp" alt="Screenshot of a dictionary application's UI" width="831" height="722" >}}
+{{< grid-2 >}}
+{{< figure src="/images/it-academy-def-list.webp" alt="Screenshot of IT definitions within the UI" width="404" height="438">}}
+{{< figure src="/images/it-academy-modal.webp" alt="Screenshot of a modal UI for displaying a dictionary term" width="404" height="438" >}}
+{{< /grid-2 >}}
 
 #### Sketches and wireframes
 
@@ -75,7 +84,7 @@ For every project, I start by sketching ideas on paper before transitioning to F
 
 #### Prototyping
 
-Before moving onto high-fidelity mockups, I like to build simple prototypes in the browser to get a proof of concept. The trickiest of the bunch was the folder component, which needed to be recursive and display information from nested folders.
+Before moving onto high-fidelity mockups, I like to build simple prototypes in the browser to get a proof of concept. The trickiest of the bunch for this particular project was the folder component, which needed to be recursive and display information from nested folders.
 
 ## Admin functionality
 
@@ -90,7 +99,13 @@ When an admin accesses the IT Academy portal, they are presented with additional
 
 ## User testing
 
-Prior to launch, extensive user testing was conducted to ensure the application operated seamlessly. I led the testing process, utilizing a structured walkthrough document to guide users through the application while documenting any issues or areas for improvement. These sessions involved collaboration with both the Learning and Development team and members of the IT Academy team, ensuring a comprehensive evaluation from diverse perspectives.
+Prior to launch, extensive user testing was conducted to ensure the application operated seamlessly. I led the testing process, utilizing a structured walkthrough document to guide users through the application's happy path, while documenting any issues or areas for improvement.
+
+Users would be grouped based on testing criteria, such as specific browsers for consistency, mobile devices for responsive behavior, and keyboard-only navigation to ensure adherence to WCAG 2.1 standards.
+
+These sessions involved collaboration with both the Learning and Development team and members of the IT Academy team, ensuring a comprehensive evaluation from diverse perspectives.
+
+This served as a final round of testing before addressing any remaining bugs, and launching the application.
 
 ## Achievements and reflections
 
