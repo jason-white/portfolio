@@ -10,7 +10,7 @@ role = 'Consulting, wireframes, design, development, logo design'
 type = 'Single page application'
 designs = 'https://www.figma.com/design/olA5VkrQgGw9ngSDQGa5WN/IT-Academy-Walkthough?node-id=126-2&t=jpEmPh4YnmM2is2A-1'
 prototype = 'https://www.figma.com/proto/olA5VkrQgGw9ngSDQGa5WN/IT-Academy-Walkthough?node-id=126-5&t=l75Tmqy0SsU5ari9-1&scaling=min-zoom&content-scaling=fixed&page-id=126%3A2&starting-point-node-id=126%3A5'
-image = '/images/it-academy-fp.webp'
+image = '/images/it-academy-ui.webp'
 desc = 'The IT Academy portal is a sleek single-page application designed for Charter Communications IT employees. It provides quick access to definitions of terms specific to internal IT teams and includes a dedicated area for browsing IT training materials via the IT Academy, streamlining both learning and team collaboration.'
 +++
 
@@ -67,7 +67,7 @@ The updated design retains much of the original layout but introduces a moderniz
 
 The primary objective for this project's design was to ensure a clean, minimalist user interface. The directive for the homepage was clear: emulate Google's simplicity by placing a prominent, central search component. Interior pages followed a consistent design pattern, featuring a left-aligned sidebar with controls and the main content displayed to the right, creating a cohesive and user-friendly experience.
 
-{{< figure src="/images/it-academy-ui.webp" alt="Screenshot of a dictionary application's UI" width="831" height="722" >}}
+{{< figure src="/images/it-academy-fp.webp" alt="Screenshot of a dictionary application's UI" width="831" height="722" >}}
 
 #### Sketches and wireframes
 

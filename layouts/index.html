@@ -1,34 +1,5 @@
 {{ define "main" }}
   <section class="stack stack--lage">
     {{ .Content }}
-    <!-- <ul> -->
-    <!--   {{ with .Site.GetPage "section" "case-studies" }} -->
-    <!--     {{ range .Pages }} -->
-    <!--       <li> -->
-    <!--         <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-    <!--       </li> -->
-    <!--       <article class="cs-card"> -->
-    <!--         <h3> -->
-    <!--           {{ .Title }} -->
-    <!--         </h3> -->
-    <!--         <figure> -->
-    <!--           <img -->
-    <!--             decoding="async" -->
-    <!--             src="{{ .Params.image }}" -->
-    <!--             alt="Thumbnail for {{ .Title }} case study." -->
-    <!--             width="400" -->
-    <!--             height="266.67" -->
-    <!--           /> -->
-    <!--         </figure> -->
-    <!--         <div class="cs-card__intro stack stack--small"> -->
-    <!--           <p> -->
-    <!--             {{ .Params.desc }} -->
-    <!--           </p> -->
-    <!--           <a href="{{ .Permalink }}">View case study</a> -->
-    <!--         </div> -->
-    <!--       </article> -->
-    <!--     {{ end }} -->
-    <!--   {{ end }} -->
-    <!-- </ul> -->
   </section>
 {{ end }}
