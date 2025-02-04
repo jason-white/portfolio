@@ -26,7 +26,7 @@ Design a visually engaging, brochure-style single-page application that is both 
 
 ## Impact
 
-The Recruiting Solutions Central application was a success, with the recruiting team frequently updating and maintaining it on their own. One of the key achievements for me was that, after launch, I was able to step back and let the team manage the platform independently—something that was especially rewarding given my typically heavy involvement in change requests for other projects.
+By implementing a visually engaging, brochure-style single-page application with a headless CMS, the corporate recruiting team could easily manage and update content in real time, reducing the need for direct email communication. As a result, recruiters within Charter Communications found the information they needed more efficiently, leading to a decrease in email inquiries and allowing the corporate recruiting team to focus on higher-value interactions.
 
 ## Design process
 
@@ -59,7 +59,7 @@ More often than not, I will sketch ideas on paper before moving to Figma. The mo
 
 ### Wireframes
 
-I developed several wireframe variations to explore the most effective way to display information. Collaborating closely with the VP and a senior recruiter, we ensured the content was organized in the most intuitive and user-friendly manner.
+I developed several wireframe variations to explore the most effective way to display information. Collaborating closely with the VP and a senior recruiter, we ensured the content was organized in the most intuitive and user-friendly manner before moving forward.
 
 {{< figure src="/images/recruiting-solutions-wf.webp" alt="Screenshot of wireframes for a web application" width="831" height="554" >}}
 
@@ -71,6 +71,10 @@ The backend engineer and I worked with our manager to identify a headless CMS th
 
 {{< figure src="/images/recruiting-solutions-hifi.webp" alt="Screenshot of high fidelity mockups for a web application" width="831" height="554" >}}
 
+During the high-fidelity mockup phase, I chose to display the internal page section in a quadrant layout rather than stacking the items vertically or placing them side-by-side. This approach provided a more scalable structure, allowing the recruiting team to add more internal pages without disrupting the layout while keeping related subjects grouped together. Stacking them vertically felt too hierarchical, while a side-by-side cluster lacked flexibility for future expansion.
+
+One of the biggest advantages of designing what you’ll develop yourself is the ability to make informed decisions based on what’s technically possible. I enjoy prototyping ideas in HTML and CSS early in the process to validate feasibility and refine interactions before final design approvals.
+
 #### Design refresh
 
 In late 2024, I decided to refresh this application, starting with a much-needed modern update to the homepage's look and feel. I removed the testimonials section, as it was rarely utilized.
@@ -81,7 +85,9 @@ The internal pages received minor updates to components and typography, along wi
 
 Before launch, we conducted thorough user testing to ensure the application met all requirements and functioned smoothly across various platforms. Once the application was ready for testing, I prepared a detailed user testing document for every member of the Learning and Development team. This document served as a step-by-step guide for a bug-bashing session, outlining specific tasks and areas to test.
 
-If possible, the team convened in a single conference room to review the document and test collaboratively, fostering a more efficient feedback process. To ensure comprehensive coverage, users were divided into groups, each focusing on specific environments: IE11, Google Chrome, Android mobile devices, and iOS. This approach allowed us to identify and address platform-specific issues, ensuring a seamless experience for all users.
+If possible, the team convened in a single conference room to review the document and test collaboratively, fostering a more efficient feedback process. To ensure comprehensive coverage, users were divided into groups, each focusing on specific environments: IE11, Google Chrome, Android mobile devices, and iOS, as well as pure keyboar navigation for WCAG 2.1 compliance. This approach allowed us to identify and address platform-specific issues, ensuring a seamless experience for all users.
+
+I would take these results and fix any found bugs or performance issues before launching.
 
 ## Achievements and reflections
 

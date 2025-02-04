@@ -31,9 +31,13 @@ figure+* {
 }
 
 .radius {
-  border-radius: 0.5rem;
+  border-radius: var(--radius, 0.5rem);
 }
 
 .radius--small {
-  border-radius: 0.25rem;
+  border-radius: var(--radius-sm, 0.25rem);
+}
+
+.shadow {
+  box-shadow: var(--shadow);
 }

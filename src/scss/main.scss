@@ -1,6 +1,10 @@
-@use 'layer/reset';
-@use 'layer/default';
-@use 'layer/helpers.scss';
-@use 'layer/type.scss';
-@use 'layer/layout';
-@use 'layer/theme';
+// Playing with CUBE CSS methodology
+
+@use 'reset';
+@use 'defaults';
+@use 'composition';
+@use 'utilities';
+@use 'block';
+/* Not using any 'exceptions' at the moment.
+ It's the 'E' in 'CUBE'
+ @use 'exception'; */

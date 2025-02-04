@@ -65,7 +65,7 @@ The primary objective for this project's design was to ensure a clean, minimalis
 
 ### Refreshed design
 
-<two-up class="my-two-up">
+<two-up class="my-two-up radius shadow">
     <img alt="Screenshot of a dictionary application's original front page UI" src="/images/it-academy-og-fp.webp">
     <img alt="Screenshot of a dictionary application's new front page UI" src="/images/it-academy-fp.webp">
 </two-up>

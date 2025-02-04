@@ -29,7 +29,7 @@ March 2020 - May 2022
 **Web Developer/Designer**  
 March 2018 - May 2020
 
-- Developed user-friendly portals within Charter Communications' Learning Management System (LMS).
+- Designed and developed user-friendly portals within Charter Communications' Learning Management System (LMS).
 - Designed, prototyped, and engineered SPAs, including:
   - **Leadership Development SPA**: Enabled leaders to self-serve development resources, eliminating nearly 100% of consultation time.
   - **[Corporate Recruiting Hub](/case-studies/recruiting-solutions)**: Built a comprehensive hub for the recruiting team, integrating a headless CMS for seamless content management.

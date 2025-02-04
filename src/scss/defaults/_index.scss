@@ -1,0 +1,73 @@
+@view-transition {
+  navigation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+:root {
+  --bgc: #f4f4f4;
+  --fgc: #111;
+  --accent: #033397;
+  --accent: oklch(0.37 0.17 262.37);
+  --callout: #ffcb004a;
+  --callout: oklch(0.87 0.21 90.68 / 0.29);
+
+  // Text
+  --root: clamp(max(1em, 18px), 0.5724rem + 1.7544vw, 1.5rem);
+  --line-height: 1.5;
+  --smaller: 0.8rem;
+  --smallest: 0.5rem;
+  --line: calc(1rem * var(--line-height));
+  --measure: 60ch;
+
+  --body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  // Spacing
+  --stack-space: 1.5em;
+  --gap: 1rem;
+  --half-gap: calc(var(--gap) / 2);
+  --shim: calc(var(--gap) / 4);
+  --half-shim: calc(var(--shim) / 2);
+  --spacer: clamp(var(--gap) * 1.5,
+      var(--gap) + 4vw,
+      min(var(--gap) * 6, 20vmin));
+
+  --shadow: 0 0.938em 2.188em rgba(50, 50, 93, .1), 0 0.313em 0.938em rgba(0, 0, 0, .07);
+  --radius: 0.5rem;
+  --radius-sm: 0.25rem;
+}
+
+html {
+  font-family: var(--body);
+  font-size: var(--root);
+  line-height: var(--line-height);
+  color: var(--fgc);
+  background-color: var(--bgc);
+}
+
+body {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  font-weight: 600;
+}
+
+p,
+li {
+  text-wrap: pretty;
+  hyphens: auto;
+  hyphenate-limit-chars: 10;
+}
+
+
+a:focus {
+  outline: 3px dotted var(--accent);
+  outline-offset: 0.125rem;
+}

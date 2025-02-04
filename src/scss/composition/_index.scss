@@ -1,9 +1,42 @@
+header {
+  padding-block-start: 5rem;
+  padding-block-end: 1rem;
+
+  h1 {
+    margin-block-start: 0;
+  }
+}
+
+.header-nav {
+  ul {
+    display: flex;
+    gap: var(--gap);
+  }
+
+  li {
+    padding-block: 1rem;
+  }
+
+  a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: var(--smaller);
+    font-weight: 500;
+    color: #333;
+
+    &.nav--active {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  }
+}
+
 .page {
   max-width: var(--measure);
   padding-inline: var(--gap);
   margin-inline: auto;
   margin-block-end: 5rem;
-  height: auto;
+  flex: 1;
 }
 
 .wrapper {
