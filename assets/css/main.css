@@ -332,7 +332,7 @@ figure {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  font-size: var(--smallest);
+  font-size: var(--smaller);
   gap: var(--gap);
 }
 .content-info svg {
