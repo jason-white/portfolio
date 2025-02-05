@@ -1,6 +1,5 @@
 header {
-  padding-block-start: 5rem;
-  padding-block-end: 1rem;
+  padding-block: var(--space-2xl);
 
   h1 {
     margin-block-start: 0;
@@ -10,7 +9,7 @@ header {
 .header-nav {
   ul {
     display: flex;
-    gap: var(--gap);
+    gap: var(--space-s);
   }
 
   li {
@@ -20,7 +19,7 @@ header {
   a {
     text-decoration: underline;
     text-transform: uppercase;
-    font-size: var(--smaller);
+    font-size: var(--step--1);
     font-weight: 500;
     color: #333;
 
@@ -33,22 +32,22 @@ header {
 
 .page {
   max-width: var(--measure);
-  padding-inline: var(--gap);
+  padding-inline: var(--space-s);
   margin-inline: auto;
-  margin-block-end: 5rem;
+  margin-block-end: var(--space-2xl);
   flex: 1;
 }
 
 .wrapper {
   margin-inline: auto;
-  padding-inline: var(--gap);
+  padding-inline: var(--space-s);
   max-width: var(--measure);
 }
 
 .col-2 {
   display: flex;
   flex-flow: row wrap;
-  gap: var(--gap);
+  gap: var(--space-s);
 
   >* {
     max-width: 32ch;
@@ -58,12 +57,12 @@ header {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
-  gap: var(--gap);
+  gap: var(--space-s);
 }
 
 footer {
-  padding-block-start: 2rem;
-  padding-block-end: 4rem;
+  padding-block-start: var(--space-l);
+  padding-block-end: var(--space-xl);
   background-color: var(--accent);
   color: var(--bgc);
 }

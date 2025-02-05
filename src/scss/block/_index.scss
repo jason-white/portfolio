@@ -1,5 +1,5 @@
 .title {
-  font-size: var(--root);
+  font-size: var(--step-1);
 }
 
 .subtitle {
@@ -27,7 +27,7 @@ figure {
   grid-template-areas:
     "title title"
     "image intro";
-  gap: var(--gap);
+  gap: var(--space-s);
   align-items: start;
 
   h3 {
@@ -60,20 +60,20 @@ figure {
   color: #183c5c;
   color: oklch(0.35 0.07 248.14);
   background-color: var(--callout);
-  padding: calc(var(--gap) * 2);
-  font-size: var(--smaller);
+  padding: var(--space-m);
+  font-size: var(--step--1);
 }
 
 .titled-list {
-  font-size: var(--smaller);
+  font-size: var(--step--1);
 }
 
 .content-info {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  font-size: var(--smaller);
-  gap: var(--gap);
+  font-size: var(--step--1);
+  gap: var(--space-s);
 
   svg {
     width: 1.5rem;
@@ -95,11 +95,11 @@ figure {
 }
 
 .cs-footer {
-  margin-block-start: var(--spacer);
-  padding: var(--gap);
+  margin-block-start: var(--space-2xl);
+  padding: var(--space-s);
   background-color: var(--callout);
   border-radius: 0.25rem;
-  font-size: var(--smaller);
+  font-size: var(--step--1);
   color: #183c5c;
   color: oklch(0.35 0.07 248.14);
 }
@@ -107,7 +107,6 @@ figure {
 .pagination-nav {
   a {
     text-transform: none;
-    font-size: var(--body);
   }
 }
 
