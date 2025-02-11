@@ -61,6 +61,10 @@ More often than not, I will sketch ideas on paper before moving to Figma. The mo
 
 I developed several wireframe variations to explore the most effective way to display information. Collaborating closely with the VP and a senior recruiter, we ensured the content was organized in the most intuitive and user-friendly manner before moving forward.
 
+#### Keeping it simple
+
+I maintained the main layout for internal pages, keeping information on the left and controls on the right for consistency. My goal was to ensure that all necessary controls were clearly visible upon page load, as simplicity is key when designing internal tools for a large corporation.
+
 {{< figure src="/images/recruiting-solutions-wf.webp" alt="Screenshot of wireframes for a web application" width="831" height="554" >}}
 
 ### Finding the right CMS
@@ -79,9 +83,11 @@ One of the biggest advantages of designing what you’ll develop yourself is the
 
 In late 2024, I decided to refresh this application, starting with a much-needed modern update to the homepage's look and feel. I removed the testimonials section, as it was rarely utilized.
 
-The internal pages received minor updates to components and typography, along with an improved, more intuitive design for the newsletter archive page.
+The secondary pages originally used an accordion pattern for each section, allowing users to collapse content to save space. However, I noticed that users rarely used this feature, and most pages didn’t have enough content to warrant hiding anything. In hindsight, hiding information could be problematic if users overlooked or forgot about it.
 
-## User testing
+The internal pages also received minor updates to components and typography, along with an improved, more intuitive design for the newsletter archive page.
+
+## Quality assurance testing
 
 Before launch, we conducted thorough user testing to ensure the application met all requirements and functioned smoothly across various platforms. Once the application was ready for testing, I prepared a detailed user testing document for every member of the Learning and Development team. This document served as a step-by-step guide for a bug-bashing session, outlining specific tasks and areas to test.
 

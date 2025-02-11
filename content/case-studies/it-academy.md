@@ -70,11 +70,11 @@ The primary objective for this project's design was to ensure a clean, minimalis
     <img alt="Screenshot of a dictionary application's new front page UI" src="/images/it-academy-fp.webp">
 </two-up>
 
-After several years of gaining additional experience in user experience and design, I decided to refresh this application. While I no longer had access to the original Figma file, I used old screenshots as a reference to guide the redesign process.
+After several years of gaining additional experience in user experience and UI design, I decided to refresh this application. While I no longer had access to the original Figma file, I used old screenshots as a reference to guide the redesign process.
 
 The updated design retains much of the original layout but introduces a modernized look and feel. The most significant change is on the dictionary page. I reimagined the layout to feature alphabetized sections of words, giving users a bird's-eye view of the dictionary's contents. As users begin filtering, the view seamlessly transitions to a clean, list-based format with definitions, enhancing usability and clarity.
 
-I added a copy button to each term in the list of definitions, allowing users to quickly copy the content to their clipboard. While this feature wasn’t originally requested, I felt it would be a useful addition for easy access to definitions. I also included a copy button in the definition modal for consistency.
+I added a copy button to each term in the list of definitions, allowing users to quickly copy the content to their clipboard. While this feature wasn’t originally requested, I felt it would be a useful addition for quickly copying and using definitions. I also included a copy button in the definition modal for consistency.
 
 {{< grid-2 >}}
 {{< figure src="/images/it-academy-def-list.webp" alt="Screenshot of IT definitions within the UI" width="404" height="438">}}
@@ -100,7 +100,7 @@ When an admin accesses the IT Academy portal, they are presented with additional
 {{< figure src="/images/it-academy-admin-modal.webp" alt="Screenshot of a modal UI for editing a dictionary term" width="404" height="438" >}}
 {{< /grid-2 >}}
 
-## User testing
+## Quality assurance testing
 
 Prior to launch, extensive user testing was conducted to ensure the application operated seamlessly. I led the testing process, utilizing a structured walkthrough document to guide users through the application's happy path, while documenting any issues or areas for improvement.
 

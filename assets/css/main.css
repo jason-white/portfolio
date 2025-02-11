@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Box sizing rules */
 *,
 *::before,
@@ -144,6 +145,7 @@ textarea:not([rows]) {
   --shadow: 0 0.938em 2.188em rgba(50, 50, 93, .1), 0 0.313em 0.938em rgba(0, 0, 0, .07);
   --radius: 0.5rem;
   --radius-sm: 0.25rem;
+  --gutter: var(--space-s);
 }
 
 html {
@@ -244,13 +246,26 @@ header h1 {
   max-width: var(--measure);
 }
 
-.col-2 {
+.switcher {
   display: flex;
-  flex-flow: row wrap;
-  gap: var(--space-s);
+  flex-wrap: wrap;
+  /* ↓ The default value is the first point on the modular scale */
+  gap: var(--gutter, var(--space-s));
+  /* ↓ The width at which the layout “breaks” */
+  --threshold: 40ch;
 }
-.col-2 > * {
-  max-width: 32ch;
+
+.switcher > * {
+  /* ↓ Allow children to grow */
+  flex-grow: 1;
+  /* ↓ Switch the layout at the --threshold */
+  flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+/* Max 2 items,
+so anything greater than 2 is full width */
+.switcher > :nth-child(n+3) {
+  flex-basis: 100%;
 }
 
 .grid-2 {

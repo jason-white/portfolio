@@ -44,14 +44,27 @@ header {
   max-width: var(--measure);
 }
 
-.col-2 {
-  display: flex;
-  flex-flow: row wrap;
-  gap: var(--space-s);
 
-  >* {
-    max-width: 32ch;
-  }
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  /* ↓ The default value is the first point on the modular scale */
+  gap: var(--gutter, var(--space-s));
+  /* ↓ The width at which the layout “breaks” */
+  --threshold: 40ch;
+}
+
+.switcher>* {
+  /* ↓ Allow children to grow */
+  flex-grow: 1;
+  /* ↓ Switch the layout at the --threshold */
+  flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+/* Max 2 items,
+so anything greater than 2 is full width */
+.switcher> :nth-child(n + 3) {
+  flex-basis: 100%;
 }
 
 .grid-2 {
