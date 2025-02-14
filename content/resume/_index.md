@@ -45,7 +45,7 @@ May 2016 - March 2018
 
 ### Experienced using the following
 
-HTML, CSS, JavaScript, Figma, TypeScript, React, Angular, Vue, Responsive design, UX Design, Data-driven UX, Web Typography, Prototyping, WordPress, Headless CMS, Accessibility, WCAG, ARIA, NodeJS, Design Systems, CSS Preprocessors, Storybook, Chromatic, DataDog, Git, Jest, Amazon Web Services
+HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Figma, Responsive design, UX Design, Data-driven UX, Web Typography, Prototyping, WordPress, Headless CMS, Accessibility, WCAG, ARIA, NodeJS, Design Systems, CSS Preprocessors, Storybook, Chromatic, DataDog, Git, Jest, Amazon Web Services
 
 ## Education
 

@@ -22,6 +22,12 @@ title = 'Portfolio'
     name = 'Resume'
     pageRef = '/resume'
     weight = 30
+  [[menus.main]]
+    name = 'LinkedIn'
+    pageRef = 'https://www.linkedin.com/in/jawhite9/'
+    url = 'https://www.linkedin.com/in/jawhite9/'
+    weight = 40
+
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
